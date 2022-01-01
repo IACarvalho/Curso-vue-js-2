@@ -5,7 +5,7 @@ new Vue({
   },
   methods: {
     greetings: function() {
-      return 'Boa semana'
+      return this.title
     }
   }
 })

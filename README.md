@@ -28,4 +28,4 @@ Além do biding pode ser adicionado um "ouvinte" à uma tag, e quando acontecer 
 ```
 
 ## DOM
-Tudo que pode ser rederizado no html deve ser string, caso não seja vai gerar um erro de semâtica
+Tudo que pode ser rederizado no html deve ser string ou numérico (que será convertido para string), caso não seja vai gerar um erro de semâtica,
