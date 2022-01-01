@@ -26,3 +26,6 @@ Além do biding pode ser adicionado um "ouvinte" à uma tag, e quando acontecer 
 ```html
 <input type="text" @input="updateTitle">
 ```
+
+## DOM
+Tudo que pode ser rederizado no html deve ser string, caso não seja vai gerar um erro de semâtica
