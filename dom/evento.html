@@ -16,7 +16,9 @@
       <span @mousemove.stop> PARAR AQUI!!!</span>
     </p>
     <a href="https://www.google.com.br" @click.prevent="doNothing">Google</a> <br />
+    <hr>
     <button @click="sum(5, $event)">Somar 1</button>
+    <input type="text" @keyup.enter.alt="showAlert">
   </div>
   <script src="./js/eventos.js"></script>
 </body>

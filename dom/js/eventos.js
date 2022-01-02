@@ -21,6 +21,9 @@ new Vue({
     },
     doNothing(){
       console.log('Não navegou')
+    },
+    showAlert(event){
+      alert(`Você precionou ${event.key}`)
     }
   }
 })
