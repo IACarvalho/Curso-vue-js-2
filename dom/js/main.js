@@ -1,7 +1,7 @@
 new Vue({
   el: '#app',
   data: {
-    title: 'teste',
+    title: 'Bom dia',
     link: 'https://www.google.com/?client=safari&channel=mac_bm.br'
   },
   methods: {
