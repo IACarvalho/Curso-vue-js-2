@@ -7,8 +7,9 @@ new Vue({
     y: 0
   },
   methods: {
-    sum() {
-      this.counter += 1
+    sum(number, event) {
+      console.log(number, event)
+      this.counter += number
     },
     updatePosition(event) {
       this.x = event.clientX

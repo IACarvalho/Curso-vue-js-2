@@ -12,7 +12,7 @@
     <h1>{{ title }}</h1>
     <h1>{{ counter }}</h1>
     <p @mousemove="updatePosition">Mouse: {{ x }} e {{ y }}</p>
-    <button @click="sum">Somar 1</button>
+    <button @click="sum(5, $event)">Somar 1</button>
   </div>
   <script src="./js/eventos.js"></script>
 </body>
