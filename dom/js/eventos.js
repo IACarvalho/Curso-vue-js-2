@@ -14,6 +14,13 @@ new Vue({
     updatePosition(event) {
       this.x = event.clientX
       this.y = event.clientY
+    },
+    // Parar evento via function
+    stopEvent(event){
+      event.stopPropragation()
+    },
+    doNothing(){
+      console.log('Não navegou')
     }
   }
 })
